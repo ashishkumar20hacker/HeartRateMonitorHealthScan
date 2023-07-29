@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ob_bg"
+    tools:context=".Activity.OnboardingActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/native_ads"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:descendantFocusability="afterDescendants">
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Monitor your Heart rate"
+                android:textAlignment="center"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/red"
+                android:textSize="16sp"
+                android:layout_marginTop="@dimen/_70sdp"
+                android:textStyle="bold|normal"/>
+
+            <ImageView
+                android:id="@+id/onBoarding_iv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/dots"
+                android:layout_below="@id/tv1"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:src="@drawable/onboarding_one" />
+
+            <ImageView
+                android:id="@+id/dots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tv"
+                android:layout_marginVertical="@dimen/_25sdp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dot_one" />
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/nextbtn"
+                android:layout_marginHorizontal="@dimen/_35sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/ob_one_txt"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/nextbtn"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:elevation="20dp"
+                android:src="@drawable/next"
+                android:translationZ="20dp" />
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:id="@+id/native_ads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <include layout="@layout/small_native_container"/>
+    </LinearLayout>
+
+</RelativeLayout>

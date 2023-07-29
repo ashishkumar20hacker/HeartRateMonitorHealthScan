@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Heart Rate Monitor Health Scan</string>
+    <string name="t_o_u">The Application is notifying you to the presence of an app that provides several services that are essential information for safer and efficient use.</string>
+    <string name="terms_and_conditions_of_use"><u>Terms and conditions of use</u></string>
+    <string name="pp_p"><u>Privacy policy.</u></string>
+    <string name="unit_kilogram">kg</string>
+    <string name="unit_pounds">lb</string>
+    <string name="unit_inches">ft</string>
+    <string name="unit_centimeters">cm</string>
+    <string name="version_1_0">Version : <font color="#80000000">1.0</font></string>
+    <string name="ob_one_txt">Maximize your fitness potential and Stay motivated with real-time heart rate monitoring.</string>
+    <string name="ob_two_txt">Stay in sync with your body. Calculate BMI and take control of your health.</string>
+    <string name="tmc"><u>Terms &amp; Conditions.</u></string>
+
+    <string name="actual_privacypolicy">This Privacy Policy outlines the practices and policies regarding the collection, use, and disclosure of personal information by applications developed by us. It is important for app developer\'s to provide clear and transparent information to users about how their personal data is handled. Here is a general framework for a privacy policy for application: Heart Rate Monitor Health Scan
+\n
+\n1. Collection of Information:
+\nCollection of information refers to the process by which an application gathers data from its users. This data can be categorized into two main types: personal information and non-personal information.
+\n
+\na. Personal Information:
+\nPersonal information refers to data that can be used to identify or contact an individual. When we collecting personal information, it is important to inform users about the purpose for which the data is being collected and obtain their consent, particularly if it is sensitive information. Our App developer\'s should handle personal information with care and in compliance with applicable data protection laws.
+\n
+\nb. Non-Personal Information:
+\nNon-personal information, also known as anonymous or aggregate data, refers to information that does not directly identify an individual. Non-personal information is generally used to improve the app\'s functionality, enhance user experiences, and analyze usage patterns. While it does not directly identify individuals, it is still important to inform users about the collection and use of such data and offer options for users to opt-out if desired.
+\n
+\nWhen describing the collection of information in a privacy policy, it is important to clearly state the types of information being collected (personal and non-personal), explain how the information is collected (through user input, device permissions, or other means), and disclose whether any third parties are involved in the data collection process. Providing transparency and obtaining user consent are key principles in handling and collecting information responsibly.
+\n
+\n2. Use of Information:
+\nThe purposes of information usage in an application can vary depending on the nature of the app and its features. The primary purpose of collecting user information is to deliver the core functionality of the application and enhance its performance. User data is often utilized to personalize and customize the user experience within the app. Collected data is frequently used for analytics and research purposes to improve the app\'s performance and user satisfaction. User information may be used for communication and support purposes &amp; In some cases, user information may be utilized for marketing and promotional purposes.
+\nIt\'s important to explicitly communicate these purposes to users in the privacy policy to ensure transparency and obtain their consent. Additionally, the privacy policy should clarify any specific data processing activities that may be unique to the app or required by applicable laws or regulations.
+\n
+\n3. Data Storage and Security:
+\nData storage and security are crucial aspects of maintaining user privacy and protecting their information &amp; the security measures implemented to protect user data from unauthorized access, loss, or misuse.
+\n
+\n4. User Choices and Control:
+\nUser choices and control are important aspects of privacy that allow individuals to manage their personal information. Consider the following application consent and permissions:
+\n\nHARDWARE.CAMERA \n CAMERA\n WAKE_LOCK\n INTERNET\n READ_EXTERNAL_STORAGE\n WRITE_EXTERNAL_STORAGE\n FOREGROUND_SERVICE
+
+\n
+\nIt is crucial to provide clear instructions and easily accessible mechanisms for users to exercise their choices and control over their personal information. Empowering users to manage their privacy preferences helps build trust and promotes transparency in the app\'s data practices.
+\n
+\n5. Children\'s Privacy:
+\nChildren\'s privacy is an important consideration when developing an application, particularly when the app is intended for use by children or when it involves the collection of personal information from children. Clearly define the age range or criteria that define a child according to applicable laws or regulations, such as the Children\'s Online Privacy Protection Act (COPPA) in the United States or the General Data Protection Regulation (GDPR) in the European Union.
+\nIt is essential to adhere to applicable laws and regulations when designing an app that targets children or collects personal information from them. By providing clear information and obtaining verifiable parental consent, the privacy of children can be safeguarded, promoting a safe and trusted environment for their digital interactions.
+\nThese policies aim to ensure the safety and privacy of children and provide a positive and suitable experience for families using apps and games.
+\n
+\n6. Disclaimer:
+\nThis disclaimer ("DMCA") is designed to inform users ("Users" or "You") of Heart Rate Monitor Health Scan ("the App"), the importance of copyright protection and to clarify the responsibilities and liabilities of the Company regarding copyright infringement claims under the Digital Millennium Copyright Act ("DMCA").
+\n
+\nGeneral Information:
+\na. The App serves as a platform for users to access and share content, including but not limited to text, images, audio, video, and other materials ("User Content").
+\nb. The Company respects the intellectual property rights of others and encourages Users to do the same.
+\n
+\nUser Responsibility:
+\na. Users are solely responsible for the User Content they upload, post, transmit, or share on the App.
+\nb. By sharing User Content, Users represent and warrant that they have the necessary rights, licenses, permissions, and consent to do so and that such User Content does not infringe upon the intellectual property rights of any third party.
+\nc. Users agree to indemnify and hold the Company harmless against any claims, damages, costs, and liabilities arising from any alleged copyright infringement related to their User Content.
+\n
+\nNo Liability:
+\na. The Company disclaims any liability for any copyright infringement committed by Users of the App.
+\nb. The Company takes copyright infringement seriously and will take appropriate action in response to valid notices, but it is not responsible for monitoring or policing User Content for potential infringements.
+\n
+\nWe respect the intellectual property rights of others and expect our users to do the same. If you believe that your copyrighted work has been infringed upon, please follow the DMCA takedown procedures outlined below. We will promptly respond to valid notices and take appropriate action, including removing the allegedly infringing material. However, we are not liable for any copyright infringement committed by our users. By using the App, you agree to comply with this disclaimer and understand that it may be updated without prior notice.
+\n
+\nChanges to This Privacy Policy
+\nChanges to privacy policies typically occur to reflect updates in data handling practices, legal requirements, or changes in the services provided by us.
+\n
+\nContact Us
+\nIf you have concerns or questions about changes to a privacy policy, it\'s important to carefully review the updated policy and reach out to us directly for clarification.
+    </string>
+    <string name="tc">
+Posting rules you should be taking care of before you start interaction on our website/application:
+\n
+\nAssuring you carry the rights and eligibility to post any form of content you are about to share. We never permit nudism on application/website.
+\n
+\nWe won\'t allow posting of sexually explicit content, sexually explicit text, images, or audio content depicting extreme sexual acts such as acts of posting Content that drives traffic to pornographic online services. Please note that we may make exceptions based on artistic, educational, historical, documentary, or scientific nature, or where there are other considerable benefits to the public at large.
+\n
+\nWe don\'t permit encouragement or applaud towards terrorism, formed crime scenes or hate association groups on our application/website. Attempting to sell sexual services or weapons and harmful drugs are also not permitted. We will remove reasonable threats of severity, hate arousing content/speech and the intentionally pointing of private individuals. We do not permit attacks/abuse based on skin colour, native, sex, gender, gender identity, sexual orientation, religion, disability or disease.
+\n
+\nGraphic violence is not allowed and we may remove videos or images of intense, graphic violence to make sure our application/website stays appropriate for everyone.
+\n
+\nIf anyone or any account is spotted doing the above restricted activities they can be booked and arrested for the same. If viewers spot any violations of the above rules they have the right to report the content to us by using the report feature given in our application/ website.
+    </string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+
+</resources>

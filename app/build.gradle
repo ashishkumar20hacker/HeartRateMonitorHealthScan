@@ -1,0 +1,66 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\admin\\Downloads\\jks folder\\heart_rate_monitor_health_scan.jks')
+            storePassword '123456'
+            keyAlias 'key0'
+            keyPassword '123456'
+        }
+    }
+    namespace 'com.sainttropez.heartratemonitor.bmicheck'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.sainttropez.heartratemonitor.bmicheck"
+        minSdk 24
+        targetSdk 33
+        versionCode 2
+        versionName "1.1"
+
+        signingConfig signingConfigs.release
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    implementation 'com.intuit.sdp:sdp-android:1.1.0'
+
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //Chip Bottom Navigation
+    implementation 'com.github.ismaeldivita:chip-navigation-bar:1.4.0'
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
+
+    //Pie Chart
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    implementation "androidx.room:room-runtime:2.5.2"
+    annotationProcessor "androidx.room:room-compiler:2.5.2"
+
+    implementation 'com.airbnb.android:lottie:6.0.0'
+
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation project(path: ':adsmodule')
+    implementation 'androidx.lifecycle:lifecycle-process:2.6.1'
+}
